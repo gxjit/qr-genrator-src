@@ -1,0 +1,26 @@
+$body-bg: darken(#537d91, 10%);
+$secondary: #a4d1c8;
+$body-color: #dee2e6;
+
+$primary: lighten(#584b42, 5%);
+$light: lighten($body-color, 10%);
+
+$enable-responsive-font-sizes: true;
+$enable-shadows: true;
+
+$font-family-base: 'Montserrat', sans-serif;
+
+$sizes: ();
+
+$sizes: map-merge(
+  (
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    85: 85%,
+    95: 95%,
+    100: 100%,
+    auto: auto
+  ),
+  $sizes
+);
