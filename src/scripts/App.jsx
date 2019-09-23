@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className='container'>
-      <GithubRibbon url='https://singh.js.org/qr/' />
+      <GithubRibbon url='https://github.com/gxjit/qr-genrator-src' />
       <CardCenter>
         <Main setSvg={setSvg} setTab={setTab} tab={tab} />
         <Modal svg={svg} setTab={setTab} tab={tab} />
