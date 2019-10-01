@@ -3,3 +3,13 @@ $text-shadow-cust: 0.2rem 0.4rem 0.22rem rgba($primary, 0.15);
 .text-shadow {
   text-shadow: $text-shadow-cust;
 }
+
+#responsive {
+  height: 85%;
+  @media (min-width: 576px) {
+    height: 50%;
+  }
+  @media (max-height: 576px) {
+    height: 85%;
+  }
+}
